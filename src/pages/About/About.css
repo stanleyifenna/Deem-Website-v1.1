@@ -1,0 +1,373 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  list-style: bold;
+  padding-top: 10px;
+  margin-bottom: -0rem;
+}
+
+.about__cheap {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: auto;
+  max-width: 57%;
+  color: #333333;
+  padding-bottom: 30px;
+}
+
+.about-img {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.aboutimg {
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
+.our__vision-image {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 140px;
+}
+
+.our__vision {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58.75px;
+  font-style: normal;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+.vision {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: normal;
+  line-height: 23.5px;
+  max-width: 80%;
+  padding-left: 70px;
+  color: #333333;
+}
+
+.management-img {
+  padding-left: 138px;
+}
+
+.speed__img {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+}
+
+.fast__speed {
+  padding-bottom: 0px;
+  padding-left: 70px;
+  display: flex;
+}
+
+.lightening {
+  max-width: 20%;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: normal;
+  line-height: 22.09px;
+}
+
+.management {
+  position: absolute;
+  max-width: 2%;
+  padding-left: 196px;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: normal;
+  line-height: 21.09px;
+}
+
+.mission-section {
+  height: 75vh;
+  width: 100%;
+}
+
+.mission {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: normal;
+  line-height: 23.5px;
+  max-width: 80%;
+  color: #333333;
+}
+
+.our__mission {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58.75px;
+  font-style: normal;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.mission-img {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.lightenin {
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: normal;
+}
+
+.business {
+  position: absolute;
+  max-width: 2%;
+  padding-left: 195px;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: normal;
+}
+
+.about-top {
+  margin-top: -100px;
+  margin-bottom: -80px;
+}
+
+.secure-section {
+  padding-bottom: 0px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.column {
+  float: left;
+  width: 49.995%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  .abt-section {
+    color: #ffffff;
+    padding: 120px 0;
+  }
+  .about-top {
+    margin-top: -100px;
+    margin-bottom: -80px;
+  }
+
+  .up-vision {
+    margin-top: -90px;
+    margin-bottom: 0px;
+  }
+
+  .speed__img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .about-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #fafafa;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .mission-section {
+    height: 68vh;
+    width: 100%;
+  }
+
+  .mission-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #fafafa;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .our__vision,
+  .vision {
+    padding-left: 0px;
+  }
+
+  .our__mission {
+    padding-top: 0px;
+  }
+
+  .speed__img,
+  .fast__speed {
+    padding-left: 20px;
+  }
+  .about__cheap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    margin: auto;
+    max-width: 100%;
+    color: #333333;
+  }
+
+  .vision {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: normal;
+    line-height: 23.5px;
+    max-width: 100%;
+    padding-left: 0px;
+    color: #333333;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    list-style: bold;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .about__cheap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    margin: auto;
+    max-width: 100%;
+    color: #333333;
+  }
+
+  .vision {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: normal;
+    line-height: 23.5px;
+    max-width: 100%;
+    padding-left: 0px;
+    color: #333333;
+  }
+  .our__vision {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47px;
+    font-style: normal;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .lightening {
+    max-width: 20%;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: normal;
+    line-height: 18px;
+  }
+
+  .management {
+    position: absolute;
+    max-width: 2%;
+    padding-left: 160px;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: normal;
+    line-height: 18px;
+  }
+
+  .lightenin {
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: normal;
+    line-height: 18px;
+  }
+
+  .management-img {
+    padding-left: 100px;
+  }
+
+  .business {
+    position: absolute;
+    padding-left: 160px;
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 400;
+    list-style: normal;
+    max-width: 20%;
+  }
+
+  .mission {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: normal;
+    line-height: 23.5px;
+    max-width: 100%;
+    color: #333333;
+  }
+
+  .our__mission {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47px;
+    font-style: normal;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    text-align: center;
+  }
+  .about-top {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+}
