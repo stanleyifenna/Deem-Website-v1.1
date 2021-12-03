@@ -1,0 +1,159 @@
+  
+  .g {
+    background-color: #fafafa;
+    height: 450px;
+    width: 100%;
+  }
+
+  .step {
+    color: #000000;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    max-width: 400px;
+    padding-top: 24px;
+  }
+
+  .how-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0d0d0d;
+    font-size: 32px;
+  }
+  
+  
+  .payment-step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 360;
+    line-height: 16px;
+    font-size: 16px;
+    padding-top: 8px;
+  }
+  
+  .top-titles {
+    color: #003a99;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 6px;
+  }
+  
+  .top-case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5efff;
+    height: 40px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    max-width: 170px;
+    margin-bottom: 24px;
+  }
+  
+  .top-case2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5efff;
+    height: 40px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    max-width: 220px;
+    margin-bottom: 24px;
+  }
+  
+  
+  .description {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 25.6px;
+    font-size: 16px;
+    max-width: 430px;
+    padding-bottom: 30px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    
+ 
+  
+    /* .g {
+      background-color: #fafafa;
+      height: 63rem;
+      width: 100%;
+    }
+   */
+
+   .how-work {
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+  }
+    .payment-step {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 40px;
+      padding-bottom: 60px;
+      max-width: 98%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .how-work {
+      padding-left: 24px;
+      padding-right: 24px;
+      text-align: center;
+    }
+  
+    .payment-step {
+      justify-content: flex-start;
+      text-align: center;
+    }
+  
+    .to-top {
+      margin-top: 1.4rem;
+    }
+  
+    .toptop {
+      margin-top: 6rem;
+    }
+  
+    .top-case2 {
+      margin-top: 6rem;
+    }
+  
+    .toptop2 {
+      margin-top: -1.8rem;
+    }
+  
+    .payment-step {
+      display: flex;
+      padding: 0px 24px 24px 24px;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      color: rgba(0, 0, 0, 0.8);
+      line-height: 25.6px;
+      font-size: 16px;
+      font-style: regular;
+    }
+  
+    .step {
+      color: #000000;
+     
+      padding-top: 24px;
+    }
+  
+    .descriptions {
+      color: rgba(0, 0, 0, 0.7);
+      line-height: 25.6px;
+      padding-top: 6px;
+      font-weight: 400;
+      padding-bottom: 96px;
+    }
+  }
+  
